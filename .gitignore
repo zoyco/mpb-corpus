@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments. `uv sync` recreates these exactly from uv.lock, which
+# is committed; the environment itself never should be.
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local backups taken before a pipeline run
+*.bak
